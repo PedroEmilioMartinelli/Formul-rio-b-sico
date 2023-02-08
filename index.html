@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Formulário básico</title>
+</head>
+<body>
+    <form>
+            <fieldset>
+                <legend>Meu Formulário</legend>
+                <div> <input type="text" name="nome" placeholder="Digite Seu nome" required> </div>
+                <div> <input type="text" name="nome" placeholder="Digite Seu E-mail" required> </div>
+
+                <div>
+                    <select name="lista">
+                        <option disabled selected>Qual a sua idade?</option>
+                        <option>18 / 22</option>
+                        <option>23 / 27</option>
+                        <option>28 / 32</option>
+                        <option>33 / 37</option>
+                        <option>38+</option>
+                        
+                    </select>
+                </div>
+
+                <div>
+                  <h2>Qual a sua Cidade?</h2>
+                  <div class="radio-input">
+                    <input type="radio" name="cididade" value=""><span>Porto Lucena</span>
+                    
+                  <div>
+                    <input type="radio" name="cididade" value=""><span>Santa Rosa</span>
+                  </div>
+                  <div>
+                    <input type="radio" name="cididade" value=""><span>Tuparandi</span>
+                  </div>
+                  <div>
+                    <input type="radio" name="cididade" value=""><span>Novo Machado</span>
+                  </div>
+
+                </div>
+
+                <h2>Qual serviço quer que eu faça?</h2>
+                <div class="radio-input">
+                  <input type="radio" name="produto" value=""><span>Front-end</span>
+                  
+                <div>
+                  <input type="radio" name="produto" value=""><span>Back-end</span>
+                </div>
+                <div>
+                  <input type="radio" name="produto" value=""><span>Full-stack</span>
+                </div>
+
+                <div>
+                  <input type="submit" name="ação" value="Enviar">
+                </div>
+               
+
+              </div>
+            
+              
+               
+            </fieldset>
+
+    </form>
+    
+</body>
+</html>
